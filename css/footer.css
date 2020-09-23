@@ -1,0 +1,41 @@
+.footer-general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+    margin-top: 30%;
+
+}
+
+.insta {
+    height: 30px;
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .footer-general {
+        font-size: 20px;
+    }
+
+    .insta {
+        height: 40px;
+        width: 40px;
+
+
+    }
+
+}

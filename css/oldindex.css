@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Parisienne&family=Poiret+One&family=Raleway:wght@100;200;300&display=swap');
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /*border: solid black 1px;*/
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+main figure>img {
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+}
+
+.name-logo h1 {
+    visibility: hidden;
+    /* version mobile H1 hidden */
+    margin: 0;
+    height: 0;
+}
+
+header {
+    width: 100%;
+    /* background-image: url("/img/sorgues.jpg"); */
+    background: url(../img/sorgues.jpg);
+}
+
+
+
+header img {
+    opacity: 0.6;
+}
+
+nav {
+    width: 100%;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4.5px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Playball', cursive;
+}
+
+.link-hidden {
+    visibility: hidden;
+    /* lien de secours */
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article h1,
+article p {
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+article p {
+    padding-top: 5px;
+}
+
+
+.photo-accueil img,
+.photo-bedroom img {
+    width: 40%;
+    height: 40%;
+    padding: 5px;
+    padding-top: 30px;
+    margin-left: 20px;
+    justify-content: baseline;
+}
+
+blockquote {
+    font-family: 'Playball', cursive
+}
+
+.events img {
+    padding-top: 40px;
+}
+
+.events h1 {
+    padding-top: 40px
+}

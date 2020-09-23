@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+body {
+  margin: 0;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40%;
+}
+
+.private {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.private img {
+  display: flex;
+  width: 100vw;
+}
+
+.private p {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  border-top: black 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 28px;
+}
+
+.private h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  border-top: black 1px solid;
+  letter-spacing: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+
+  main {
+    margin-top: 20%;
+  }
+
+  .private img {
+    display: flex;
+    width: 70vw;
+  }
+
+  .private p {
+    width: 70%;
+  }
+
+}
